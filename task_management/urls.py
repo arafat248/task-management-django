@@ -20,7 +20,7 @@ from tasks.views import home, dynamic_urls,hello
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', hello),
+    path('', hello)
     path('home/', home ),
     path('du/<int:id>/', dynamic_urls)
 ]
